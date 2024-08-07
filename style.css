@@ -1,0 +1,136 @@
+
+#logo{
+    height: 25px;
+}
+#SupportedContent{
+    margin-left: 20px;
+}.letter-spacing-1 {
+    letter-spacing: 0.1em; 
+}
+#dropdown{
+    color: white;
+    border-bottom:solid;
+    border-color: black;
+    border-bottom-width: 5px;
+    background-color: rgba(253, 62, 14, 0.945);
+}
+#option{
+    padding-top: 1em;  
+    color: white;
+}
+#left {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center !important;  /* Center horizontally */
+    justify-content: center !important; /* Center vertically */
+    height: 100vh; /* Optional: makes sure the container takes up the full viewport height */
+    position: relative; /* Ensure proper positioning context */
+    background-color: black;
+}
+
+.new {
+    width: 400px;
+    font-size: medium;
+    font-weight: 900 !important;
+    color: white;
+    text-align: center; /* Centers the text within the h1 */
+    position:absolute;
+    z-index: 2;
+
+}
+#head{
+    background-color: rgb(9, 4, 36);
+}
+.para1{
+    font-size: 22px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+.para2{
+    font-size: 22px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.para3{
+    font-size: 22px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.fan{
+    width: 150px;
+    z-index:1;
+    height: 450px;
+}
+#hover{
+    color: white;
+}
+@media(max-width:576px){
+    .new{
+        width: 300px;
+    }
+}
+.home{
+    padding-left: 120px;
+}
+
+#hover:hover{
+    color:rgba(238, 52, 6, 0.925);
+    transition: 1s;
+    display: "dropdown";
+}
+#option:hover{
+    color: black;
+    background-color: rgba(238, 52, 6, 0.925);
+    transition: .75s;
+}
+.col-4{
+    padding: 50px;
+ }
+.bold{
+    font-weight: 700;
+    line-height: 2;
+    font-size: 13px;
+    letter-spacing: 2;
+}
+.footer{
+    line-height: 1.5;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+.app1{
+    font-size:28px;
+    padding-top: 10px;
+    margin-left: 100px;
+
+}
+.apps{
+    font-size:28px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.navbar {
+    padding: 0;
+    background-color: rgb(6, 2, 29);
+}
+
+.navbar-brand {
+    margin-right: auto; /* Aligns the brand to the start */
+}
+
+.navbar-toggler {
+    margin-left: auto; /* Aligns the toggler to the end */
+}
+
+.dropdown-item-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown-item-group > div {
+    flex: 1;
+    padding: 0 10px; /* Adjust padding as needed */
+}
